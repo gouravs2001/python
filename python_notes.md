@@ -114,7 +114,7 @@ tuple = (1,2,3)   //{k:v}-> dictionary, [] -> list
 
 ## Loop Internal Working
 
-![](./loop_internals.png)
+![loop_internals](./loop_internals.png)
 
 1. Iteration tool send iter() to iterable Objects.
 2. Iterable object returns '**next **' it contains starting address of iiterable object.
@@ -142,7 +142,7 @@ f.__next__() //gives lines from file
 ```
 
 **next() in list**
-![](./__next__in_list.png)
+![next_in_list](./__next__in_list.png)
 
 - iter(iterable object) returns the address of first element.
 - If we use I.\__next**\() where "I" is starting address returned by iter(). "I" will store the starting address even after using **next_\_().
