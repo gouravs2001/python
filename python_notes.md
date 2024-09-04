@@ -114,7 +114,7 @@ tuple = (1,2,3)   //{k:v}-> dictionary, [] -> list
 
 ## Loop Internal Working
 
-![loop_internal](./loop_internals.png)
+![](./loop_internals.png)
 
 1. Iteration tool send iter() to iterable Objects.
 2. Iterable object returns '**next **' it contains starting address of iiterable object.
